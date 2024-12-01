@@ -1,5 +1,5 @@
 <template>
-    <div class="parent">
+    <div class="parent" id="fego">
         <div class="left-side">
             <div>
                 <img :src="image" alt="">

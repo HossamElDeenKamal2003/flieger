@@ -1,5 +1,5 @@
 <template>
-    <div class="parent">
+    <div id="about" class="parent">
       <!-- Left Side Content -->
       <div class="left-side">
         <div>

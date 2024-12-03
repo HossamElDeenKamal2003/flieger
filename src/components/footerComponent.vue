@@ -3,7 +3,7 @@
       <div class="container">
         <!-- First Column -->
         <div class="column">
-          <img :src="image" alt="Logo" class="logo" />
+          <img :src="image" alt="Logo" class="logo" style="border-radius: 50%;" />
           <p>
             Comes with a very great service, friendly and of course comfortable at
             a very affordable price by all groups, both bottom and top.

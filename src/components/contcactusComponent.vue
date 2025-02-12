@@ -101,7 +101,7 @@ export default {
 
       try {
         const response = await axios.post(
-          "https://backend-5ig1.onrender.com/admin/add-contact",
+          "https://backend.fego-rides.com/admin/add-contact",
           formData,
           {
             headers: { "Content-Type": "multipart/form-data" },

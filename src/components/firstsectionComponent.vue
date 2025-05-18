@@ -13,37 +13,57 @@
         <div class="trip-image">
           <img :src="tripImage" alt="trips image" />
         </div>
-        <div id="icons">
-          <div class="google">
-            <div class="icon-container">
-              <h2>User App</h2>
-              <a href="">
-                <img :src="googleIconUser" alt="Google Play Store" class="icon" />
-              </a>
-            </div>
-            <div class="icon-container">
-              <h2>Driver App</h2>
-              <a href="">
-                <img :src="googleIconDriver" alt="Google Play Store" class="icon" />
-              </a>
-            </div>
+       <div class="icons">
+        <div class="google">
+          <div class="icon-container">
+            <h2>User App</h2>
+            <a
+                href="https://play.google.com/store/apps/details?id=com.fego.user"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Download Fego User App on Google Play"
+            >
+              <img :src="googleIcon" alt="Google Play Store - User App" class="icon" />
+            </a>
           </div>
-          <div class="apple">
-            <div class="icon-container">
-              <h2>User App</h2>
-              <a href="">
-                <img :src="appleIconUser" alt="Apple App Store" class="icon" />
-              </a>
-            </div>
-            <div class="icon-container">
-              <h2>Driver App</h2>
-              <a href="">
-                <img :src="appleIconDriver" alt="Apple App Store" class="icon" />
-              </a>
-            </div>
+          <div class="icon-container">
+            <h2>Driver App</h2>
+            <a
+                href="https://play.google.com/store/apps/details?id=com.fego.driver"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Download Fego Driver App on Google Play"
+            >
+              <img :src="googleIcon" alt="Google Play Store - Driver App" class="icon" />
+            </a>
+          </div>
+        </div>
+        <div class="apple">
+          <div class="icon-container">
+            <h2>User App</h2>
+            <a
+                href="https://apps.apple.com/eg/app/fego/id6740404406"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Download Fego User App on Apple App Store"
+            >
+              <img :src="appleIcon" alt="Apple App Store - User App" class="icon" />
+            </a>
+          </div>
+          <div class="icon-container">
+            <h2>Driver App</h2>
+            <a
+                href="https://apps.apple.com/eg/app/fego-driver/id6740406370"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Download Fego Driver App on Apple App Store"
+            >
+              <img :src="appleIcon" alt="Apple App Store - Driver App" class="icon" />
+            </a>
           </div>
         </div>
       </div>
+    </div>
       <div class="right-side">
         <img :src="rightsideImage" alt="" width="100%" />
       </div>
